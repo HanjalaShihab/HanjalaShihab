@@ -1,4 +1,4 @@
-![Shihab's Banner](./(https://twitter.com/Hanjala_Shihab/status/1723756172648538562/photo/1))
+<div align="center"><img src="images/github-header-image (2).png"></div>
 <h1 align="center">Hi 👋, I'm Hanjala Muhammad Shihab</h1>
 <h3 align="center">A passionate frontend developer from Bangladesh.Exploring life's wonders through codes and design.</h3>
 <img align="right" alt="coding" width="400px" src="images/code-4918185_1280.jpg">
