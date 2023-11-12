@@ -13,9 +13,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-Hello there,
-I am......
-Hanjala Muhammad Shihab 😊
+Hello there,<br>
+I am......<br>
+Hanjala Muhammad Shihab 😊<br><br>
 
 I am a student and a Web developer.<br>
 I am from Bangladesh.
