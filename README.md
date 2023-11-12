@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<h2>Hello there</h2>
+<h2>Hello there 👋</h2>
 <body>
 I am......<br>
 Hanjala Muhammad <span style="font-weight: bold; letter-spacing: 2px; color: red">SHIHAB</span>😊<br><br>
