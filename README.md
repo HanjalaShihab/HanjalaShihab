@@ -1,4 +1,4 @@
-![Header](images/github-header-image (3).png)
+![Header](./images/github-header-image (3).png)
 <h1 align="center">Hi 👋, I'm Hanjala Muhammad Shihab</h1>
 <h3 align="center">A passionate frontend developer from Bangladesh.Exploring life's wonders through codes and design.</h3>
 <img align="right" alt="coding" width="400px" src="https://pixabay.com/photos/code-code-debug-learn-sleep-repeat-4918185/">
