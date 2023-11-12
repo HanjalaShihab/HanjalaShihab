@@ -14,12 +14,14 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<h2 style="text-align: center">Hello there</h2>
-
+<h2>Hello there</h2>
+<body>
 I am......<br>
-Hanjala Muhammad <span style="font-weight: bold; letter-spacing: 2px;">SHIHAB</span>😊<br><br>
+Hanjala Muhammad <span style="font-weight: bold; letter-spacing: 2px; color: red">SHIHAB</span>😊<br><br>
 
 I am a student and a Web developer.<br>
 I am from Bangladesh.
 Currently I am Studying in Daffodil International University at the department of Software Engineering.
 Besides that,I am learning Web Deveoping.
+</body>
+
