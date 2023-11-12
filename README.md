@@ -15,9 +15,9 @@ Here are some ideas to get you started:
 -->
 
 <h2 style="text-align: center">Hello there</h2>
-Hello there,<br>
+
 I am......<br>
-Hanjala Muhammad Shihab 😊<br><br>
+Hanjala Muhammad <span style="font-weight: bold; letter-spacing: 2px;">SHIHAB</span>😊<br><br>
 
 I am a student and a Web developer.<br>
 I am from Bangladesh.
