@@ -23,7 +23,7 @@
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> &nbsp; &nbsp; &nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> &nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> &nbsp;&nbsp;&nbsp; <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/></p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=hanjalashihab&show_icons=true&locale=en&layout=compact" alt="hanjalashihab" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=hanjalashihab&show_icons=true&locale=en&layout=compact" alt="hanjalashihab" /></p> 
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hanjalashihab&show_icons=true&locale=en" alt="hanjalashihab" /></p>
 
