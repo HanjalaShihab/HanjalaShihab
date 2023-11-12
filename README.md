@@ -13,6 +13,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<h2 style="text-align: center">Hello there</h2>
 Hello there,<br>
 I am......<br>
 Hanjala Muhammad Shihab 😊<br><br>
