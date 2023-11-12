@@ -15,8 +15,9 @@ Here are some ideas to get you started:
 -->
 Hello there,
 I am......
-Hanjala Muhammad Shihab.
+Hanjala Muhammad Shihab 😊
 
+I am a student and a Web developer.<br>
 I am from Bangladesh.
 Currently I am Studying in Daffodil International University at the department of Software Engineering.
 Besides that,I am learning Web Deveoping.
