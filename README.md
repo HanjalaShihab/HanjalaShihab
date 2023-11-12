@@ -1,7 +1,7 @@
 ![Header](./images/github-header-image (3).png)
 <h1 align="center">Hi 👋, I'm Hanjala Muhammad Shihab</h1>
 <h3 align="center">A passionate frontend developer from Bangladesh.Exploring life's wonders through codes and design.</h3>
-<img align="right" alt="coding" width="400px" src="https://pixabay.com/photos/code-code-debug-learn-sleep-repeat-4918185/">
+<img align="right" alt="coding" width="400px" src="images/code-4918185_1280.jpg">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=hanjalashihab&label=Profile%20views&color=0e75b6&style=flat" alt="hanjalashihab" /> </p>
 
