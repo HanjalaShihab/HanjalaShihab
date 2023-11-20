@@ -6,6 +6,10 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=hanjalashihab&label=Profile%20views&color=0e75b6&style=flat" alt="hanjalashihab" /> </p>
 
 <p align="left"> <a href="https://twitter.com/hanjala_shihab" target="blank"><img src="https://img.shields.io/twitter/follow/hanjala_shihab?logo=twitter&style=for-the-badge" alt="hanjala_shihab" /></a> </p>
+-  🏠I am from Bangladesh.
+      I have been living here since the day I was born.
+      Now,I am persuing my Bachelor's Degree from Daffodil Internation University
+      and my department is Software Engineering.
 
 - 🌱 I’m currently learning **JavaScript.**
 
