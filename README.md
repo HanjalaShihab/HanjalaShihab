@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Hanjala Muhammad Shihab</h1>
-<h3 align="center">Software Engineering Student | Front-End Learner | Open Source Enthusiast</h3>
+<h3 align="center">Software Engineering Student | Open Source Enthusiast</h3>
 
 <p align="center">
   <a href="https://twitter.com/hanjala_shihab" target="_blank">
