@@ -128,7 +128,6 @@ Here are some of my featured projects. Click on them to explore the code!
   </tr>
 </table>
 
-> ⚠️ **Important:** Replace `your-laravel-project`, `your-react-project`, `your-python-project`, and `your-mern-project` with your actual GitHub repository names.
 
 ---
 
@@ -154,14 +153,3 @@ Here are some of my featured projects. Click on them to explore the code!
   <b>Surah Az-Zumar (39:9)</b>
 </p>
 
----
-
-### 🎯 Current Focus
-
-```javascript
-const hanjalaCurrentFocus = {
-  learning: ["Advanced React Patterns", "Laravel APIs", "Machine Learning Basics"],
-  building: "Full-stack web application with React.js & Laravel",
-  reading: "Clean Code by Robert C. Martin",
-  goal: "Contribute to open source projects regularly"
-};
