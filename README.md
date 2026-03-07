@@ -22,7 +22,7 @@
 
 I'm a passionate Software Engineering student from Bangladesh with a drive for building robust web applications and uncovering insights from data. I love the entire process of creation, from designing a user-friendly interface to developing the backend logic and analyzing the data it produces.
 
-- 💬 Ask me about **PHP, Laravel, React.js, Python, or Data Visualization**.
+- 💬 Ask me about **PHP, Laravel, React.js, Python, or Data Analysis**.
 - 📫 How to reach me: **hanjalashihab1@gmail.com**
 - ⚡ Fun fact: I'm as passionate about crafting clean code as I am about visualizing complex data.
 
