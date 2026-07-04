@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/h-m-shihab/" target="_blank">
+  <a href="https://www.linkedin.com/in/h-m-shihab-a98039350/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:shihab2305341402@diu.edu.bd">
@@ -153,7 +153,7 @@ I'm a Software Engineering student at **Daffodil International University**, cur
 ### 🤝 Connect With Me
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/h-m-shihab/" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" width="40" height="40"/></a>
+  <a href="https://www.linkedin.com/in/h-m-shihab-a98039350/" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" width="40" height="40"/></a>
   <a href="mailto:shihab2305341402@diu.edu.bd"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Email" width="40" height="40"/></a>
   <a href="https://github.com/HanjalaShihab" target="_blank"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="GitHub" width="40" height="40"/></a>
 </p>
