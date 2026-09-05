@@ -1,0 +1,266 @@
+<svg width="1400" height="430" viewBox="0 0 1400 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+  <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="430" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#080B14"/>
+    <stop offset="0.5" stop-color="#101426"/>
+    <stop offset="1" stop-color="#080B14"/>
+  </linearGradient>
+
+  <linearGradient id="line" x1="0" y1="0" x2="1400" y2="0">
+    <stop stop-color="#5865F2" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#8B9CFF"/>
+    <stop offset="1" stop-color="#5865F2" stop-opacity="0"/>
+  </linearGradient>
+
+  <linearGradient id="text" x1="500" y1="150" x2="900" y2="260">
+    <stop stop-color="#FFFFFF"/>
+    <stop offset="1" stop-color="#9BA8FF"/>
+  </linearGradient>
+
+  <radialGradient id="glow">
+    <stop stop-color="#7585FF" stop-opacity="0.28"/>
+    <stop offset="1" stop-color="#7585FF" stop-opacity="0"/>
+  </radialGradient>
+
+  <filter id="blur">
+    <feGaussianBlur stdDeviation="22"/>
+  </filter>
+
+  <filter id="smallBlur">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+
+  <clipPath id="clip">
+    <rect width="1400" height="430" rx="18"/>
+  </clipPath>
+
+</defs>
+
+<!-- BACKGROUND -->
+
+<rect width="1400" height="430" rx="18" fill="url(#bg)"/>
+
+<!-- ATMOSPHERIC GLOW -->
+
+<circle cx="700" cy="210" r="260" fill="url(#glow)" filter="url(#blur)">
+  <animate attributeName="r"
+           values="220;280;220"
+           dur="7s"
+           repeatCount="indefinite"/>
+</circle>
+
+<!-- GRID -->
+
+<g opacity="0.07">
+
+  <path d="M0 70H1400"/>
+  <path d="M0 140H1400"/>
+  <path d="M0 210H1400"/>
+  <path d="M0 280H1400"/>
+  <path d="M0 350H1400"/>
+
+  <path d="M100 0V430"/>
+  <path d="M200 0V430"/>
+  <path d="M300 0V430"/>
+  <path d="M400 0V430"/>
+  <path d="M500 0V430"/>
+  <path d="M600 0V430"/>
+  <path d="M700 0V430"/>
+  <path d="M800 0V430"/>
+  <path d="M900 0V430"/>
+  <path d="M1000 0V430"/>
+  <path d="M1100 0V430"/>
+  <path d="M1200 0V430"/>
+  <path d="M1300 0V430"/>
+
+</g>
+
+<!-- NEURAL CONNECTIONS -->
+
+<g stroke="#6575FF" stroke-width="1" opacity="0.25">
+
+  <path id="p1" d="M150 95 C330 20 380 180 520 115 S760 60 870 130 S1100 190 1250 80"/>
+  <path id="p2" d="M100 330 C280 260 360 380 510 300 S720 230 850 310 S1100 390 1300 270"/>
+  <path id="p3" d="M190 190 C340 120 390 280 550 205 S760 130 940 210 S1120 300 1240 190"/>
+  <path id="p4" d="M280 60 C390 150 480 90 590 160 S800 280 930 150 S1100 100 1180 340"/>
+
+</g>
+
+<!-- FLOWING LIGHT -->
+
+<circle r="3" fill="#AAB4FF">
+  <animateMotion dur="5s" repeatCount="indefinite">
+    <mpath href="#p1"/>
+  </animateMotion>
+</circle>
+
+<circle r="3" fill="#FFFFFF">
+  <animateMotion dur="6.5s" repeatCount="indefinite">
+    <mpath href="#p2"/>
+  </animateMotion>
+</circle>
+
+<circle r="2.5" fill="#8795FF">
+  <animateMotion dur="4.5s" repeatCount="indefinite">
+    <mpath href="#p3"/>
+  </animateMotion>
+</circle>
+
+<circle r="2.5" fill="#FFFFFF">
+  <animateMotion dur="7s" repeatCount="indefinite">
+    <mpath href="#p4"/>
+  </animateMotion>
+</circle>
+
+<!-- NODES -->
+
+<g fill="#0D1117" stroke="#7484FF" stroke-width="1.5">
+
+  <circle cx="150" cy="95" r="5"/>
+  <circle cx="330" cy="20" r="4"/>
+  <circle cx="520" cy="115" r="5"/>
+  <circle cx="870" cy="130" r="5"/>
+  <circle cx="1250" cy="80" r="5"/>
+
+  <circle cx="100" cy="330" r="4"/>
+  <circle cx="510" cy="300" r="5"/>
+  <circle cx="850" cy="310" r="5"/>
+  <circle cx="1300" cy="270" r="5"/>
+
+  <circle cx="190" cy="190" r="4"/>
+  <circle cx="550" cy="205" r="5"/>
+  <circle cx="940" cy="210" r="5"/>
+  <circle cx="1240" cy="190" r="4"/>
+
+</g>
+
+<!-- PULSING NODE -->
+
+<circle cx="700" cy="210" r="7" fill="#8B9CFF">
+
+<animate attributeName="r"
+        values="5;10;5"
+        dur="2.2s"
+        repeatCount="indefinite"/>
+
+<animate attributeName="opacity"
+        values="0.5;1;0.5"
+        dur="2.2s"
+        repeatCount="indefinite"/>
+
+</circle>
+
+<circle cx="700" cy="210" r="30" fill="none" stroke="#7585FF" opacity="0.15">
+
+<animate attributeName="r"
+        values="20;45;20"
+        dur="2.2s"
+        repeatCount="indefinite"/>
+
+<animate attributeName="opacity"
+        values="0.5;0;0.5"
+        dur="2.2s"
+        repeatCount="indefinite"/>
+
+</circle>
+
+<!-- TOP LABEL -->
+
+<text x="700" y="75"
+   text-anchor="middle"
+   fill="#7585FF"
+   font-family="monospace"
+   font-size="13"
+   letter-spacing="5">
+
+SYSTEM / ONLINE
+
+</text>
+
+<!-- MAIN NAME -->
+
+<text x="700" y="185"
+   text-anchor="middle"
+   fill="url(#text)"
+   font-family="Arial, Helvetica, sans-serif"
+   font-size="64"
+   font-weight="700"
+   letter-spacing="8">
+
+H.M. SHIHAB
+
+</text>
+
+<!-- SUBTITLE -->
+
+<text x="700" y="235"
+   text-anchor="middle"
+   fill="#9AA4B2"
+   font-family="monospace"
+   font-size="16"
+   letter-spacing="3">
+
+SOFTWARE ENGINEER · FULL-STACK · AI / LLM
+
+</text>
+
+<!-- SCANNING LINE -->
+
+<rect x="300" y="270" width="800" height="1" fill="url(#line)"/>
+
+<rect x="300" y="268" width="180" height="5" fill="#8290FF" opacity="0.7">
+
+<animate attributeName="x"
+        values="300;920;300"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+</rect>
+
+<!-- BOTTOM STATUS -->
+
+<g font-family="monospace" font-size="11" fill="#667085">
+
+<text x="70" y="380">BUILD</text> <text x="230" y="380">DEPLOY</text> <text x="400" y="380">ITERATE</text> <text x="590" y="380">LEARN</text>
+
+<text x="1120" y="380">v2026</text>
+
+</g>
+
+<!-- FLOATING PARTICLES -->
+
+<g fill="#FFFFFF">
+
+  <circle cx="80" cy="55" r="1.5">
+    <animate attributeName="opacity" values="0.1;0.8;0.1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="360" cy="350" r="1">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1030" cy="45" r="1.5">
+    <animate attributeName="opacity" values="0.1;0.7;0.1" dur="2.7s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1340" cy="170" r="1">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1180" cy="350" r="1.5">
+    <animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+
+</g>
+
+<!-- BORDER -->
+
+<rect x="1" y="1" width="1398" height="428"
+   rx="18"
+   stroke="#293044"
+   stroke-width="1"
+   fill="none"/>
+
+</svg>
