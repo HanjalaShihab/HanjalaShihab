@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/shihab-system.svg" width="100%" alt="SHIHAB — Software Engineering · Full-Stack · AI / LLM" />
+  <img src="./assets/profile-header.svg" width="100%" alt="SHIHAB — Software Engineering · Full-Stack · AI / LLM" />
 </div>
 
 <br>
