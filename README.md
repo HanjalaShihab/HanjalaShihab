@@ -4,15 +4,6 @@
 
 <br>
 
-<div align="center">
-
-```diff
-+ H.M. SHIHAB
-  SOFTWARE ENGINEERING · FULL-STACK · AI / ML
-```
-
-</div>
-
 ```ts
 const engineer = {
   build: "software from the database up",
