@@ -4,10 +4,11 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Every day at 00:17 UTC
     - cron: "17 0 * * *"
 
   push:
+    branches:
+      - main
     paths:
       - "assets/profile-header.template.svg"
       - "scripts/generate_profile_svg.py"
@@ -31,9 +32,9 @@ jobs:
 
     steps:
 
-      # --------------------------------
-      # Checkout
-      # --------------------------------
+      # ==========================================
+      # CHECKOUT
+      # ==========================================
 
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -41,9 +42,9 @@ jobs:
           fetch-depth: 1
 
 
-      # --------------------------------
-      # Python
-      # --------------------------------
+      # ==========================================
+      # PYTHON
+      # ==========================================
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -51,24 +52,69 @@ jobs:
           python-version: "3.12"
 
 
-      # --------------------------------
-      # Generate SVG
-      # --------------------------------
+      # ==========================================
+      # GENERATE SVG
+      # ==========================================
 
       - name: Generate profile SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: hmshihab
+          GITHUB_USERNAME: HanjalaShihab
           GITHUB_RUN_NUMBER: ${{ github.run_number }}
+
         run: |
+
+          echo "======================================"
+          echo "Generating GitHub Profile SVG"
+          echo "======================================"
+
           python scripts/generate_profile_svg.py
 
+          echo ""
+          echo "Generated files:"
+          ls -lah assets/
 
-      # --------------------------------
-      # Commit
-      # --------------------------------
 
-      - name: Commit updated SVG
+      # ==========================================
+      # VERIFY
+      # ==========================================
+
+      - name: Verify generated SVG
+        run: |
+
+          if [ ! -f "assets/profile-header.svg" ]; then
+            echo "ERROR: profile-header.svg was not generated."
+            exit 1
+          fi
+
+          echo "profile-header.svg exists."
+
+          echo ""
+          echo "Checking for unresolved placeholders..."
+
+          if grep -q "{{REPOS}}" assets/profile-header.svg; then
+            echo "ERROR: REPOS placeholder still exists."
+            exit 1
+          fi
+
+          if grep -q "{{COMMITS}}" assets/profile-header.svg; then
+            echo "ERROR: COMMITS placeholder still exists."
+            exit 1
+          fi
+
+          if grep -q "{{BUILD}}" assets/profile-header.svg; then
+            echo "ERROR: BUILD placeholder still exists."
+            exit 1
+          fi
+
+          echo "All placeholders successfully replaced."
+
+
+      # ==========================================
+      # COMMIT
+      # ==========================================
+
+      - name: Commit generated SVG
         run: |
 
           git config user.name "github-actions[bot]"
@@ -79,8 +125,10 @@ jobs:
           git add assets/profile-header.svg
 
           if git diff --cached --quiet; then
+
             echo "No changes detected."
             exit 0
+
           fi
 
           git commit \
