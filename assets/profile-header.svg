@@ -1,0 +1,587 @@
+<svg width="1400" height="430" viewBox="0 0 1400 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- =========================
+         LIGHT MILK BACKGROUND
+    ========================== -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7F4ED"></stop>
+      <stop offset="0.5" stop-color="#FAF8F2"></stop>
+      <stop offset="1" stop-color="#F1F3F7"></stop>
+    </linearGradient>
+
+    <!-- Accent gradients -->
+    <linearGradient id="bluePurple" x1="180" y1="0" x2="1150" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0969DA"></stop>
+      <stop offset="0.5" stop-color="#6366F1"></stop>
+      <stop offset="1" stop-color="#BF3989"></stop>
+    </linearGradient>
+
+    <linearGradient id="cyanPink" x1="0" y1="0" x2="1400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0891B2"></stop>
+      <stop offset="0.5" stop-color="#6366F1"></stop>
+      <stop offset="1" stop-color="#DB2777"></stop>
+    </linearGradient>
+
+    <!-- Ambient glows -->
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(150 80) rotate(30) scale(430 300)">
+      <stop stop-color="#3B82F6" stop-opacity="0.13"></stop>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <radialGradient id="glowPink" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1270 340) rotate(-30) scale(430 300)">
+      <stop stop-color="#EC4899" stop-opacity="0.11"></stop>
+      <stop offset="1" stop-color="#EC4899" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <!-- Soft shadows -->
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#64748B" flood-opacity="0.12"></feDropShadow>
+    </filter>
+
+    <!-- Glow -->
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5"></feGaussianBlur>
+    </filter>
+
+    <!-- Dot pattern -->
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#64748B" fill-opacity="0.12"></circle>
+    </pattern>
+
+    <!-- Clip -->
+    <clipPath id="clip">
+      <rect x="0" y="0" width="1400" height="430" rx="22"></rect>
+    </clipPath>
+
+  </defs>
+
+
+  <!-- =========================
+       BACKGROUND
+  ========================== -->
+
+  <g clip-path="url(#clip)">
+
+    <rect width="1400" height="430" fill="#F7F4ED"></rect>
+
+    <rect width="1400" height="430" fill="url(#bg)"></rect>
+
+    <!-- Ambient light -->
+    <rect width="1400" height="430" fill="url(#glowBlue)"></rect>
+
+    <rect width="1400" height="430" fill="url(#glowPink)"></rect>
+
+    <!-- Dot grid -->
+    <rect width="1400" height="430" fill="url(#dots)"></rect>
+
+
+    <!-- =========================
+         DECORATIVE ORBITS
+    ========================== -->
+
+    <g opacity="0.45">
+
+      <ellipse cx="1160" cy="125" rx="190" ry="72" transform="rotate(-18 1160 125)" stroke="#6366F1" stroke-opacity="0.16"></ellipse>
+
+      <ellipse cx="1160" cy="125" rx="145" ry="52" transform="rotate(-18 1160 125)" stroke="#0969DA" stroke-opacity="0.12"></ellipse>
+
+      <ellipse cx="220" cy="340" rx="180" ry="65" transform="rotate(17 220 340)" stroke="#BF3989" stroke-opacity="0.12"></ellipse>
+
+    </g>
+
+
+    <!-- =========================
+         FLOATING PARTICLES
+    ========================== -->
+
+    <g>
+
+      <circle cx="102" cy="82" r="3" fill="#0969DA" opacity="0.6">
+
+        <animate attributeName="cy" values="82;72;82" dur="4s" repeatCount="indefinite"></animate>
+
+      </circle>
+
+
+      <circle cx="1260" cy="72" r="2.5" fill="#BF3989" opacity="0.6">
+
+        <animate attributeName="cy" values="72;84;72" dur="5s" repeatCount="indefinite"></animate>
+
+      </circle>
+
+
+      <circle cx="1320" cy="240" r="3" fill="#6366F1" opacity="0.55">
+
+        <animate attributeName="cx" values="1320;1305;1320" dur="4.5s" repeatCount="indefinite"></animate>
+
+      </circle>
+
+
+      <circle cx="75" cy="270" r="2" fill="#0891B2" opacity="0.6">
+
+        <animate attributeName="cx" values="75;88;75" dur="4s" repeatCount="indefinite"></animate>
+
+      </circle>
+
+
+      <circle cx="1190" cy="365" r="2.5" fill="#DB2777" opacity="0.55">
+
+        <animate attributeName="cy" values="365;352;365" dur="4.2s" repeatCount="indefinite"></animate>
+
+      </circle>
+
+    </g>
+
+
+    <!-- =========================
+         ANIMATED WAVE LINES
+    ========================== -->
+
+    <path d="M-80 360
+         C120 300 190 405 360 345
+         S620 290 790 350
+         S1050 405 1220 340
+         S1370 305 1480 350" stroke="url(#cyanPink)" stroke-width="2" stroke-opacity="0.16" fill="none">
+
+      <animate attributeName="d" dur="10s" repeatCount="indefinite" values="
+        M-80 360 C120 300 190 405 360 345 S620 290 790 350 S1050 405 1220 340 S1370 305 1480 350;
+        M-80 345 C120 395 190 290 360 360 S620 410 790 335 S1050 290 1220 360 S1370 395 1480 340;
+        M-80 360 C120 300 190 405 360 345 S620 290 790 350 S1050 405 1220 340 S1370 305 1480 350
+        "></animate>
+
+    </path>
+
+
+    <path d="M-100 385
+         C130 330 230 420 410 370
+         S650 325 850 375
+         S1100 420 1270 370
+         S1410 330 1500 370" stroke="#6366F1" stroke-width="1" stroke-opacity="0.12" fill="none">
+
+      <animate attributeName="d" dur="12s" repeatCount="indefinite" values="
+        M-100 385 C130 330 230 420 410 370 S650 325 850 375 S1100 420 1270 370 S1410 330 1500 370;
+        M-100 370 C130 420 230 330 410 385 S650 420 850 360 S1100 330 1270 385 S1410 420 1500 365;
+        M-100 385 C130 330 230 420 410 370 S650 325 850 375 S1100 420 1270 370 S1410 330 1500 370
+        "></animate>
+
+    </path>
+
+
+    <!-- =========================
+         TERMINAL HEADER
+    ========================== -->
+
+    <g filter="url(#shadow)">
+
+      <rect x="55" y="35" width="1290" height="42" rx="10" fill="#FFFFFF" fill-opacity="0.72" stroke="#CBD5E1" stroke-opacity="0.8"></rect>
+
+
+      <!-- terminal buttons -->
+
+      <circle cx="77" cy="56" r="5" fill="#EF4444" fill-opacity="0.8"></circle>
+
+      <circle cx="94" cy="56" r="5" fill="#F59E0B" fill-opacity="0.8"></circle>
+
+      <circle cx="111" cy="56" r="5" fill="#22C55E" fill-opacity="0.8"></circle>
+
+
+      <!-- terminal path -->
+
+      <text x="132" y="61" font-family="monospace" font-size="13" font-weight="600" fill="#475569">
+
+        /dev/shihab
+
+      </text>
+
+    </g>
+
+
+    <!-- =========================
+         MAIN TITLE
+    ========================== -->
+
+    <text x="700" y="165" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="61" font-weight="800" letter-spacing="3" fill="#1E293B">
+
+      SHIHAB
+
+    </text>
+
+
+    <!-- Animated underline -->
+
+    <rect x="440" y="182" width="520" height="3" rx="2" fill="url(#bluePurple)">
+
+      <animate attributeName="width" values="480;540;480" dur="5s" repeatCount="indefinite"></animate>
+
+      <animate attributeName="x" values="460;430;460" dur="5s" repeatCount="indefinite"></animate>
+
+    </rect>
+
+
+    <!-- =========================
+         ROLE
+    ========================== -->
+
+    <text x="700" y="216" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#475569">
+
+      SOFTWARE ENGINEER · FULL-STACK . AI / ML DEVELOPER
+
+    </text>
+
+
+    <!-- =========================
+         TECH STACK
+    ========================== -->
+
+    <g font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">
+
+
+      <!-- Laravel -->
+
+      <g filter="url(#shadow)">
+
+        <rect x="300" y="245" width="100" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
+        <circle cx="318" cy="261" r="5" fill="#FF2D20"></circle>
+
+        <text x="331" y="265" fill="#475569">
+
+          Laravel
+
+        </text>
+
+      </g>
+
+
+      <!-- PHP -->
+
+      <g filter="url(#shadow)">
+
+        <rect x="410" y="245" width="78" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
+        <circle cx="428" cy="261" r="5" fill="#777BB4"></circle>
+
+        <text x="441" y="265" fill="#475569">
+
+          PHP
+
+        </text>
+
+      </g>
+
+
+      <!-- React -->
+
+      <g filter="url(#shadow)">
+
+        <rect x="498" y="245" width="88" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
+        <circle cx="516" cy="261" r="5" fill="#61DAFB"></circle>
+
+        <text x="529" y="265" fill="#475569">
+
+          React
+
+        </text>
+
+      </g>
+
+
+      <!-- Node -->
+
+      <g filter="url(#shadow)">
+
+        <rect x="596" y="245" width="100" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
+        <circle cx="614" cy="261" r="5" fill="#339933"></circle>
+
+        <text x="627" y="265" fill="#475569">
+
+          Node.js
+
+        </text>
+
+      </g>
+
+
+      <!-- MSSQL -->
+
+      <g filter="url(#shadow)">
+
+        <rect x="706" y="245" width="100" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
+        <circle cx="724" cy="261" r="5" fill="#CC2927"></circle>
+
+        <text x="737" y="265" fill="#475569">
+
+          MsSQL
+
+        </text>
+
+      </g>
+
+
+      <!-- AI -->
+
+      <g filter="url(#shadow)">
+
+        <rect x="816" y="245" width="75" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
+        <circle cx="834" cy="261" r="5" fill="#6366F1"></circle>
+
+        <text x="847" y="265" fill="#475569">
+
+          AI
+
+        </text>
+
+      </g>
+
+
+      <!-- ML -->
+
+      <g filter="url(#shadow)">
+
+        <rect x="901" y="245" width="80" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
+        <circle cx="919" cy="261" r="5" fill="#8B5CF6"></circle>
+
+        <text x="932" y="265" fill="#475569">
+
+          ML
+
+        </text>
+
+      </g>
+
+
+      <!-- Docker -->
+
+      <g filter="url(#shadow)">
+
+        <rect x="991" y="245" width="100" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
+        <circle cx="1009" cy="261" r="5" fill="#2496ED"></circle>
+
+        <text x="1022" y="265" fill="#475569">
+
+          Docker
+
+        </text>
+
+      </g>
+
+    </g>
+
+
+    <!-- =========================
+         BUILD STATUS
+    ========================== -->
+
+    <g>
+
+      <circle cx="530" cy="306" r="4" fill="#22C55E">
+
+        <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"></animate>
+
+      </circle>
+
+
+      <text x="543" y="311" font-family="monospace" font-size="12" fill="#64748B">
+
+        BUILD / SYSTEMS ONLINE
+
+      </text>
+
+
+      <text x="870" y="311" font-family="monospace" font-size="12" fill="#64748B">
+
+        :: READY TO SHIP
+
+      </text>
+
+    </g>
+
+
+    <!-- =========================
+         PULSE RINGS
+    ========================== -->
+
+    <g opacity="0.5">
+
+      <circle cx="190" cy="155" r="10" stroke="#0969DA" stroke-width="1">
+
+        <animate attributeName="r" values="8;35;8" dur="4s" repeatCount="indefinite"></animate>
+
+        <animate attributeName="opacity" values="0.6;0;0.6" dur="4s" repeatCount="indefinite"></animate>
+
+      </circle>
+
+
+      <circle cx="1210" cy="180" r="10" stroke="#BF3989" stroke-width="1">
+
+        <animate attributeName="r" values="8;35;8" dur="5s" repeatCount="indefinite"></animate>
+
+        <animate attributeName="opacity" values="0.6;0;0.6" dur="5s" repeatCount="indefinite"></animate>
+
+      </circle>
+
+    </g>
+
+
+    <!-- =========================
+         BOTTOM STATS
+         DYNAMIC VALUES:
+         5
+         11
+         1
+    ========================== -->
+
+    <g font-family="monospace">
+
+      <!-- separators -->
+
+      <line x1="280" y1="342" x2="280" y2="390" stroke="#CBD5E1"></line>
+
+      <line x1="510" y1="342" x2="510" y2="390" stroke="#CBD5E1"></line>
+
+      <line x1="735" y1="342" x2="735" y2="390" stroke="#CBD5E1"></line>
+
+      <line x1="1045" y1="342" x2="1045" y2="390" stroke="#CBD5E1"></line>
+
+
+      <!-- =========================
+           STATUS
+      ========================== -->
+
+      <text x="90" y="359" font-size="10" fill="#64748B" letter-spacing="1">
+
+        STATUS
+
+      </text>
+
+
+      <circle cx="91" cy="378" r="4" fill="#22C55E">
+
+      </circle>
+
+
+      <text x="103" y="382" font-size="13" font-weight="700" fill="#334155">
+
+        ONLINE
+
+      </text>
+
+
+      <!-- =========================
+           DYNAMIC REPOS
+      ========================== -->
+
+      <text x="320" y="359" font-size="10" fill="#64748B" letter-spacing="1">
+
+        REPOS
+
+      </text>
+
+
+      <text x="320" y="382" font-size="15" font-weight="700" fill="#334155">
+
+        5
+
+      </text>
+
+
+      <!-- =========================
+           DYNAMIC COMMITS
+      ========================== -->
+
+      <text x="550" y="359" font-size="10" fill="#64748B" letter-spacing="1">
+
+        COMMITS
+
+      </text>
+
+
+      <text x="550" y="382" font-size="15" font-weight="700" fill="#334155">
+
+        11
+
+      </text>
+
+
+      <!-- =========================
+           PRIMARY STACK
+      ========================== -->
+
+      <text x="775" y="359" font-size="10" fill="#64748B" letter-spacing="1">
+
+        PRIMARY STACK
+
+      </text>
+
+
+      <text x="775" y="382" font-size="13" font-weight="700" fill="#334155">
+
+        Laravel / PHP / React
+
+      </text>
+
+
+      <!-- =========================
+           DYNAMIC BUILD
+      ========================== -->
+
+      <text x="1080" y="359" font-size="10" fill="#64748B" letter-spacing="1">
+
+        BUILD
+
+      </text>
+
+
+      <text x="1080" y="382" font-size="13" font-weight="700" fill="#334155">
+
+        v1
+
+      </text>
+
+    </g>
+
+
+    <!-- =========================
+         CORNER BRACKETS
+    ========================== -->
+
+    <path d="M30 75V30H75" stroke="#0969DA" stroke-width="2" stroke-opacity="0.6"></path>
+
+
+    <path d="M1325 30H1370V75" stroke="#BF3989" stroke-width="2" stroke-opacity="0.6"></path>
+
+
+    <path d="M30 355V400H75" stroke="#0891B2" stroke-width="2" stroke-opacity="0.6"></path>
+
+
+    <path d="M1325 400H1370V355" stroke="#6366F1" stroke-width="2" stroke-opacity="0.6"></path>
+
+
+    <!-- =========================
+         SCANNING LINE
+    ========================== -->
+
+    <rect x="60" y="335" width="1280" height="1" fill="url(#bluePurple)" opacity="0.16">
+
+      <animate attributeName="x" values="60;1340;60" dur="8s" repeatCount="indefinite"></animate>
+
+    </rect>
+
+  </g>
+
+
+  <!-- =========================
+       OUTER BORDER
+  ========================== -->
+
+  <rect x="1.5" y="1.5" width="1397" height="427" rx="21" stroke="#CBD5E1" stroke-opacity="0.9" stroke-width="2"></rect>
+
+</svg>
