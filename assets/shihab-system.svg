@@ -99,23 +99,37 @@
     <g>
 
       <circle cx="102" cy="82" r="3" fill="#0969DA" opacity="0.6">
+
         <animate attributeName="cy" values="82;72;82" dur="4s" repeatCount="indefinite"></animate>
+
       </circle>
+
 
       <circle cx="1260" cy="72" r="2.5" fill="#BF3989" opacity="0.6">
+
         <animate attributeName="cy" values="72;84;72" dur="5s" repeatCount="indefinite"></animate>
+
       </circle>
+
 
       <circle cx="1320" cy="240" r="3" fill="#6366F1" opacity="0.55">
+
         <animate attributeName="cx" values="1320;1305;1320" dur="4.5s" repeatCount="indefinite"></animate>
+
       </circle>
+
 
       <circle cx="75" cy="270" r="2" fill="#0891B2" opacity="0.6">
+
         <animate attributeName="cx" values="75;88;75" dur="4s" repeatCount="indefinite"></animate>
+
       </circle>
 
+
       <circle cx="1190" cy="365" r="2.5" fill="#DB2777" opacity="0.55">
+
         <animate attributeName="cy" values="365;352;365" dur="4.2s" repeatCount="indefinite"></animate>
+
       </circle>
 
     </g>
@@ -163,16 +177,22 @@
 
       <rect x="55" y="35" width="1290" height="42" rx="10" fill="#FFFFFF" fill-opacity="0.72" stroke="#CBD5E1" stroke-opacity="0.8"></rect>
 
+
       <!-- terminal buttons -->
+
       <circle cx="77" cy="56" r="5" fill="#EF4444" fill-opacity="0.8"></circle>
 
       <circle cx="94" cy="56" r="5" fill="#F59E0B" fill-opacity="0.8"></circle>
 
       <circle cx="111" cy="56" r="5" fill="#22C55E" fill-opacity="0.8"></circle>
 
+
       <!-- terminal path -->
+
       <text x="132" y="61" font-family="monospace" font-size="13" font-weight="600" fill="#475569">
+
         /dev/shihab
+
       </text>
 
     </g>
@@ -183,7 +203,9 @@
     ========================== -->
 
     <text x="700" y="165" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="61" font-weight="800" letter-spacing="3" fill="#1E293B">
+
       SHIHAB
+
     </text>
 
 
@@ -203,7 +225,9 @@
     ========================== -->
 
     <text x="700" y="216" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#475569">
+
       SOFTWARE ENGINEER · FULL-STACK . AI / ML DEVELOPER
+
     </text>
 
 
@@ -213,60 +237,140 @@
 
     <g font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">
 
+
       <!-- Laravel -->
+
       <g filter="url(#shadow)">
+
         <rect x="300" y="245" width="100" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
         <circle cx="318" cy="261" r="5" fill="#FF2D20"></circle>
-        <text x="331" y="265" fill="#475569">Laravel</text>
+
+        <text x="331" y="265" fill="#475569">
+
+          Laravel
+
+        </text>
+
       </g>
+
 
       <!-- PHP -->
+
       <g filter="url(#shadow)">
+
         <rect x="410" y="245" width="78" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
         <circle cx="428" cy="261" r="5" fill="#777BB4"></circle>
-        <text x="441" y="265" fill="#475569">PHP</text>
+
+        <text x="441" y="265" fill="#475569">
+
+          PHP
+
+        </text>
+
       </g>
+
 
       <!-- React -->
+
       <g filter="url(#shadow)">
+
         <rect x="498" y="245" width="88" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
         <circle cx="516" cy="261" r="5" fill="#61DAFB"></circle>
-        <text x="529" y="265" fill="#475569">React</text>
+
+        <text x="529" y="265" fill="#475569">
+
+          React
+
+        </text>
+
       </g>
+
 
       <!-- Node -->
+
       <g filter="url(#shadow)">
+
         <rect x="596" y="245" width="100" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
         <circle cx="614" cy="261" r="5" fill="#339933"></circle>
-        <text x="627" y="265" fill="#475569">Node.js</text>
+
+        <text x="627" y="265" fill="#475569">
+
+          Node.js
+
+        </text>
+
       </g>
+
 
       <!-- MSSQL -->
+
       <g filter="url(#shadow)">
+
         <rect x="706" y="245" width="100" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
         <circle cx="724" cy="261" r="5" fill="#CC2927"></circle>
-        <text x="737" y="265" fill="#475569">MsSQL</text>
+
+        <text x="737" y="265" fill="#475569">
+
+          MsSQL
+
+        </text>
+
       </g>
+
 
       <!-- AI -->
+
       <g filter="url(#shadow)">
+
         <rect x="816" y="245" width="75" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
         <circle cx="834" cy="261" r="5" fill="#6366F1"></circle>
-        <text x="847" y="265" fill="#475569">AI</text>
+
+        <text x="847" y="265" fill="#475569">
+
+          AI
+
+        </text>
+
       </g>
 
-      <!-- LLM -->
+
+      <!-- ML -->
+
       <g filter="url(#shadow)">
+
         <rect x="901" y="245" width="80" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
         <circle cx="919" cy="261" r="5" fill="#8B5CF6"></circle>
-        <text x="932" y="265" fill="#475569">ML</text>
+
+        <text x="932" y="265" fill="#475569">
+
+          ML
+
+        </text>
+
       </g>
+
 
       <!-- Docker -->
+
       <g filter="url(#shadow)">
+
         <rect x="991" y="245" width="100" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.8" stroke="#E2E8F0"></rect>
+
         <circle cx="1009" cy="261" r="5" fill="#2496ED"></circle>
-        <text x="1022" y="265" fill="#475569">Docker</text>
+
+        <text x="1022" y="265" fill="#475569">
+
+          Docker
+
+        </text>
+
       </g>
 
     </g>
@@ -284,12 +388,18 @@
 
       </circle>
 
+
       <text x="543" y="311" font-family="monospace" font-size="12" fill="#64748B">
+
         BUILD / SYSTEMS ONLINE
+
       </text>
 
+
       <text x="870" y="311" font-family="monospace" font-size="12" fill="#64748B">
+
         :: READY TO SHIP
+
       </text>
 
     </g>
@@ -309,6 +419,7 @@
 
       </circle>
 
+
       <circle cx="1210" cy="180" r="10" stroke="#BF3989" stroke-width="1">
 
         <animate attributeName="r" values="8;35;8" dur="5s" repeatCount="indefinite"></animate>
@@ -322,11 +433,16 @@
 
     <!-- =========================
          BOTTOM STATS
+         DYNAMIC VALUES:
+         {{REPOS}}
+         {{COMMITS}}
+         {{BUILD}}
     ========================== -->
 
     <g font-family="monospace">
 
       <!-- separators -->
+
       <line x1="280" y1="342" x2="280" y2="390" stroke="#CBD5E1"></line>
 
       <line x1="510" y1="342" x2="510" y2="390" stroke="#CBD5E1"></line>
@@ -336,60 +452,98 @@
       <line x1="1045" y1="342" x2="1045" y2="390" stroke="#CBD5E1"></line>
 
 
-      <!-- STATUS -->
+      <!-- =========================
+           STATUS
+      ========================== -->
 
       <text x="90" y="359" font-size="10" fill="#64748B" letter-spacing="1">
+
         STATUS
+
       </text>
 
-      <circle cx="91" cy="378" r="4" fill="#22C55E"></circle>
+
+      <circle cx="91" cy="378" r="4" fill="#22C55E">
+
+      </circle>
+
 
       <text x="103" y="382" font-size="13" font-weight="700" fill="#334155">
+
         ONLINE
+
       </text>
 
 
-      <!-- REPOS -->
+      <!-- =========================
+           DYNAMIC REPOS
+      ========================== -->
 
       <text x="320" y="359" font-size="10" fill="#64748B" letter-spacing="1">
+
         REPOS
+
       </text>
+
 
       <text x="320" y="382" font-size="15" font-weight="700" fill="#334155">
-        42
+
+        {{REPOS}}
+
       </text>
 
 
-      <!-- COMMITS -->
+      <!-- =========================
+           DYNAMIC COMMITS
+      ========================== -->
 
       <text x="550" y="359" font-size="10" fill="#64748B" letter-spacing="1">
+
         COMMITS
+
       </text>
+
 
       <text x="550" y="382" font-size="15" font-weight="700" fill="#334155">
-        ∞
+
+        {{COMMITS}}
+
       </text>
 
 
-      <!-- STACK -->
+      <!-- =========================
+           PRIMARY STACK
+      ========================== -->
 
       <text x="775" y="359" font-size="10" fill="#64748B" letter-spacing="1">
+
         PRIMARY STACK
+
       </text>
+
 
       <text x="775" y="382" font-size="13" font-weight="700" fill="#334155">
+
         Laravel / PHP / React
+
       </text>
 
 
-      <!-- BUILD -->
+      <!-- =========================
+           DYNAMIC BUILD
+      ========================== -->
 
       <text x="1080" y="359" font-size="10" fill="#64748B" letter-spacing="1">
+
         BUILD
+
       </text>
 
+
       <text x="1080" y="382" font-size="13" font-weight="700" fill="#334155">
-        v2026.09
+
+        v{{BUILD}}
+
       </text>
 
     </g>
@@ -401,9 +555,12 @@
 
     <path d="M30 75V30H75" stroke="#0969DA" stroke-width="2" stroke-opacity="0.6"></path>
 
+
     <path d="M1325 30H1370V75" stroke="#BF3989" stroke-width="2" stroke-opacity="0.6"></path>
 
+
     <path d="M30 355V400H75" stroke="#0891B2" stroke-width="2" stroke-opacity="0.6"></path>
+
 
     <path d="M1325 400H1370V355" stroke="#6366F1" stroke-width="2" stroke-opacity="0.6"></path>
 
