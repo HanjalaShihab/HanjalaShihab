@@ -37,7 +37,7 @@ jobs:
       # ==========================================
 
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 1
 
@@ -47,7 +47,7 @@ jobs:
       # ==========================================
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -70,10 +70,6 @@ jobs:
 
           python scripts/generate_profile_svg.py
 
-          echo ""
-          echo "Generated files:"
-          ls -lah assets/
-
 
       # ==========================================
       # VERIFY
@@ -88,9 +84,6 @@ jobs:
           fi
 
           echo "profile-header.svg exists."
-
-          echo ""
-          echo "Checking for unresolved placeholders..."
 
           if grep -q "{{REPOS}}" assets/profile-header.svg; then
             echo "ERROR: REPOS placeholder still exists."
@@ -125,13 +118,10 @@ jobs:
           git add assets/profile-header.svg
 
           if git diff --cached --quiet; then
-
             echo "No changes detected."
             exit 0
-
           fi
 
-          git commit \
-            -m "chore: update GitHub profile stats"
+          git commit -m "chore: update GitHub profile stats"
 
           git push
