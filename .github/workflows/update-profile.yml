@@ -1,0 +1,89 @@
+name: Update Profile SVG
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Every day at 00:17 UTC
+    - cron: "17 0 * * *"
+
+  push:
+    paths:
+      - "assets/profile-header.template.svg"
+      - "scripts/generate_profile_svg.py"
+      - ".github/workflows/update-profile.yml"
+
+
+permissions:
+  contents: write
+
+
+concurrency:
+  group: update-profile-svg
+  cancel-in-progress: true
+
+
+jobs:
+
+  generate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # --------------------------------
+      # Checkout
+      # --------------------------------
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+
+      # --------------------------------
+      # Python
+      # --------------------------------
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+
+      # --------------------------------
+      # Generate SVG
+      # --------------------------------
+
+      - name: Generate profile SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: hmshihab
+          GITHUB_RUN_NUMBER: ${{ github.run_number }}
+        run: |
+          python scripts/generate_profile_svg.py
+
+
+      # --------------------------------
+      # Commit
+      # --------------------------------
+
+      - name: Commit updated SVG
+        run: |
+
+          git config user.name "github-actions[bot]"
+
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/profile-header.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+            exit 0
+          fi
+
+          git commit \
+            -m "chore: update GitHub profile stats"
+
+          git push
