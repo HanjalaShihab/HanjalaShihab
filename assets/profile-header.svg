@@ -435,8 +435,8 @@
          BOTTOM STATS
          DYNAMIC VALUES:
          37
-         720
-         13
+         722
+         14
     ========================== -->
 
     <g font-family="monospace">
@@ -506,7 +506,7 @@
 
       <text x="550" y="382" font-size="15" font-weight="700" fill="#334155">
 
-        720
+        722
 
       </text>
 
@@ -542,7 +542,7 @@
 
       <text x="1080" y="382" font-size="13" font-weight="700" fill="#334155">
 
-        v13
+        v14
 
       </text>
 
