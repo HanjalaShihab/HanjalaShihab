@@ -1,16 +1,9 @@
 <div align="center">
 
-<img src="./assets/profile.jpg" width="100%" alt="H. M. Shihab" />
+<img src="./assets/profile.png" width="100%" alt="H. M. Shihab" />
 
 <br><br>
 
-# H. M. SHIHAB
-
-### SOFTWARE ENGINEER · FULL-STACK · AI / LLM
-
-Building real products across **software, systems, and AI**.
-
-<br>
 
 <a href="https://github.com/hanjala-shihab">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -30,7 +23,7 @@ Final-year **Software Engineering student at Daffodil International University, 
 
 I build end-to-end software — from **databases and APIs to interfaces, AI integrations, and deployment**.
 
-Currently exploring **LLM systems, multi-agent architectures, evaluation, and automation**.
+Currently exploring **LLM systems, multi-agent architectures, automation**.
 
 ---
 
@@ -56,18 +49,6 @@ Currently exploring **LLM systems, multi-agent architectures, evaluation, and au
 
 </div>
 
----
-
-## Beyond Code
-
-<div align="center">
-
-💡 Turning vague ideas into working systems
-🔍 Understanding how things work under the hood
-🧪 Learning by building, breaking, and rebuilding
-🤖 Making AI actually useful
-
-</div>
 
 ---
 
